@@ -1,0 +1,3 @@
+* Para chamar ou executar um javascript ou CSS ou HMTL no genexus deve se usuar
+
+Form.HeaderRawHTML += '<JS, CSS ou HTML>'
