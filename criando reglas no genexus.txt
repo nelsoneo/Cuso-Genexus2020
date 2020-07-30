@@ -1,0 +1,10 @@
+#Para autoenumerar un atributo en um nivel de uma transaction exemplo country.
+
+1- Cria um atributo CountyCount de tipo count(id da cidade)
+2- Na Regla da transaction country se agrega um Serial(CityId, CountryCount, 1);
+onde CityId seria o campo a autoenumerar automaticamente e CountryCount tendra a cantidad de pais, sumando-se 1 criando a suma incremental: CityId = CountryCount + 1
+-------------------------------------------------------------------------
+#Para criar uma mascara em um atributo exemplo ClientePhone, onde só seja permitido ingresar 11 digitos e com o seguente esquema ou mascara de telefono (55)-XXXXX-XXXX
+
+1-Declarar o atributo ClientePhone como numeric(11), seguido na propiedade Imagen agregar o formato: (ZZ)-ZZZZZ-ZZZ9
+--------------------------------------------------------------------------
